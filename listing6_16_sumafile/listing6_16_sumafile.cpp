@@ -26,15 +26,12 @@ int main()
 	double value;
 	double sum = 0.0;
 	int count = 0; // number of items read
-	//inFile >> value; // get first value
-	// Note this program have an error in the book. inFile.good finds the EOF before entering the loop and the final value never gets evaluated.
-	// The solution is to comment line previous line inFile >> value and call it before the adding operation in the loop.
+	inFile >> value; // get first value
 	while (inFile.good()) // while input good and not at EOF
 	{
 		++count; // one more item read
-		inFile >> value; // get next value. We have change this line
 		sum += value; // calculate running total
-		//inFile >> value; // get next value
+		inFile >> value; // get next value
 	}
 	if (inFile.eof())
 		cout << "End of file reached.\n";
