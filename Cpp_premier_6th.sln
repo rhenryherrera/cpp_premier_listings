@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listing6_14_cingolf", "list
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listing6_15_outfile", "lisitng6_15_outfile\lisitng6_15_outfile.vcxproj", "{BE48B637-452A-475E-9670-CC7B45E275CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listing6_16_sumafile", "listing6_16_sumafile\listing6_16_sumafile.vcxproj", "{E86AFB77-16DA-4908-AE3B-2EA1F01F5ECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -159,6 +161,10 @@ Global
 		{BE48B637-452A-475E-9670-CC7B45E275CA}.Debug|Win32.Build.0 = Debug|Win32
 		{BE48B637-452A-475E-9670-CC7B45E275CA}.Release|Win32.ActiveCfg = Release|Win32
 		{BE48B637-452A-475E-9670-CC7B45E275CA}.Release|Win32.Build.0 = Release|Win32
+		{E86AFB77-16DA-4908-AE3B-2EA1F01F5ECA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E86AFB77-16DA-4908-AE3B-2EA1F01F5ECA}.Debug|Win32.Build.0 = Debug|Win32
+		{E86AFB77-16DA-4908-AE3B-2EA1F01F5ECA}.Release|Win32.ActiveCfg = Release|Win32
+		{E86AFB77-16DA-4908-AE3B-2EA1F01F5ECA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
